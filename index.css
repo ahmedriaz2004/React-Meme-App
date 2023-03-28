@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main{
+  padding: 36px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background:linear-gradient(80deg,#0eaa35 1.18%,#d60516 100%);
+  color: white;
+  padding: 15px 20px;
+}
+.troll_image{
+  height: 100%;
+  border-radius: 36px;
+  margin-right: 10px;
+}
+.header_title{
+  font-size: 20px;
+  margin-right: auto;
+}
+.header_project{
+  font-size: 0.75rems;
+  font-weight: 500;
+}
+.form{
+  display: grid;
+  grid-template:40px 40px / 1fr 1fr ;
+  gap: 17px;
+}
+
+.form_inputs{
+  font-family: sans-serif;
+  border-radius: 10px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+.form_button{
+  grid-column: 1/-1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  border-radius: 10px;
+  background:linear-gradient(80deg,#0eaa35 1.18%,#d60516 100%);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+ 
+
+}
+.meme_image{
+   width: 60%;
+  height: 450px; 
+  max-width: 100%;
+  position: relative;
+}
+.meme--text--top{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 45%;
+  left: 25%;
+}
+.meme--text--bottom{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 55%;
+  left: 25%;
+}
